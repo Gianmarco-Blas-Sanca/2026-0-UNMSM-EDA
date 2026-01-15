@@ -19,7 +19,7 @@ Listado de alumnos del curso de Estructuras de Datos
 6. Alejandro Sotelo
 7. Paolo Villavicencio
 8.
-9.
+9.Blas Sanca,Hebert Gianmarco
 10.Galvez Garro, Jorge Luis Junior :D 
 10.
 11.
