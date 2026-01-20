@@ -1,16 +1,19 @@
 #ifndef __ARRAY_H__
 #define __ARRAY_H__
+#include <stddef.h>
+
+using value_type = int;
 
 class CArray{
 private:
-    int  m_size;
-    int  m_data[100]; // Fixed size for simplicity;
+    size_t  m_size;
+    value_type  m_data[100]; // Fixed size for simplicity;
 public:
-    CArray(int size);
+    CArray(size_t size);
     ~CArray();
 
-    int& operator[](int index);
-    int  getSize() const;
+    value_type& operator[](size_t index);
+    size_t  getSize() const;
 };
 
 void DemoArray();
